@@ -1,34 +1,13 @@
 // document.getElementById("count-elements").innerText = 5;
 
-// let count = 5;
-// count = count + 1;
-// console.log(count);
-
 // intialize the count as 0
 // listen for clicks on the increment button
 // increment the count variable when the button is clicked
 // change the count-el in the HTML to reflect the new count
 
+let count = 0;
 
-// function increment() {
-//     console.log("The button was clicked");
-// }
-
-
-
-// Write a Function that Increments
-
-let lapsCompleted = 0;
-
-// Create a function that increments the lapsCompleted variable with one
-// Run it three times
-
-function incrementLapsCompleted() {
-    lapsCompleted = lapsCompleted + 1;
+function increment() {
+    count = count + 1;
+    console.log(count);
 }
-
-incrementLapsCompleted();
-incrementLapsCompleted();
-incrementLapsCompleted();
-
-console.log(lapsCompleted);
