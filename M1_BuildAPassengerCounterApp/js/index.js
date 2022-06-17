@@ -10,11 +10,13 @@
 // change the count-el in the HTML to reflect the new count
 
 
-// Using Functions to Write Less Code
-
 // function increment() {
 //     console.log("The button was clicked");
 // }
+
+
+
+// Using Functions to Write Less Code
 
 // function countdown() {
 //     console.log(5);
