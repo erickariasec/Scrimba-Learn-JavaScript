@@ -4,14 +4,13 @@ let count = 0;
 
 function increment() {
     count += 1;
-    countElements.textContent = count; // Text content shows hidden elements like white spaces
+    countElements.textContent = count;
 }
 
 function save() {
     let syntaxPreviousEntries = count + " - ";
-    saveEl.textContent += syntaxPreviousEntries; // Text content shows hidden elements like white spaces
+    saveEl.textContent += syntaxPreviousEntries;
     console.log(count);
+    count = 0;
+    countElements.textContent = count;
 }
-
-// Google:
-// innerText alternative mdn
