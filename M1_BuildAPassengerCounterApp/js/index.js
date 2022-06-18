@@ -12,12 +12,18 @@ function save() {
 
 
 
-// Write Your First String Variable
+// Log a Greeting to the Console
 
-let username = "per";
-// Create a variable, message, that stores the string: "You have tree new notifications"
-let message = "You have three new notifications"
-// Create a variable, messageToUser, that contains the message we have logged
-let messageToUser = message + ", " + username + "!";
 
-console.log(messageToUser);
+// Create two variables, name and greeting. The name variable should store your name,
+// and the greeting should store e.g. "Hi, my name is "
+
+// Create a third variable, myGreeting, that contatenates the two strings
+// Log myGreeting to the console
+
+let myName = "Erick";
+let greeting = "Hi, my name is ";
+
+let myGreeting = greeting + myName;
+
+console.log(myGreeting);
